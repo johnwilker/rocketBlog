@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #290742;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color:#290742
+}
+
+p {
+    color:#170027;
+}
+
+header {
+    padding-bottom: 69px;
+    border-bottom: 6px solid #4fff4b;
+}
+
+header section {
+    display: flex;
+}
+
+header section nav {
+    display: flex;
+    width: 1169px;
+    height: 44px;
+    margin: 64px 0px 0px 137px;
+}
+
+header section nav ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    font-family: 18px;
+    line-height: 21px;    
+}
+
+header section nav ul li:hover {
+    color:#170027;
+    background-color: #fff;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+}
+
+header section nav ul li:nth-child(1){
+    margin-left: 207px;
+    border-left: 2px solid #4fff4b;
+    padding-left: 3px;
+    font-weight: 700;
+}
+
+header section nav .search {
+    margin-left: 153px;
+    width: 300px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 44px;
+    width: 230px;
+    background-color: #170027;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    padding-left: 25.6px;
+    color: #fbf6ff;
+}
+
+.search div {
+    width: 70px;
+    height: 44px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: #9e6dc2;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.search input:hover {
+    border:1px solid #9e6dc2;
+}
+
+.search input:focus-within {
+    outline: none;
+    color:#fbf6ff;
+    font-weight: 700;
+    border: 1px solid #9e6dc2;
+}
+
+header section:nth-child(2) {
+    margin-top: 64px;
+}
+
+header section:nth-child(2) h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #9e6dc2;
+}
+
+header section:nth-child(2) div p:nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fbf6ff;
+    width: 469px;
+    height: 82px;
+    margin-top: 16px;
+}
+
+
+header section:nth-child(2) div p:nth-child(3) {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #9e6dc2;
+    margin-top: 24px;
+    gap: 8px;
+}
+
+header section:nth-child(2) div p:hover:nth-child(3){
+    cursor: pointer;
+}
+
+header section:nth-child(2) div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 135px;
+    width: 570px;
+    height: 311px;
+}
+
+header section:nth-child(2) div:nth-child(2) img{
+    width: 570px;
+    height: 346px;
+}
+
+header section:nth-child(2) div:nth-child(2) img:hover{
+    transform: scale(1.02);
+    transition: transform ease-in-out .2s;
+
+}
+
+main {
+    display: flex;
+    background-color: #fff;
+    padding-top: 69px;
+}
+
+main section:nth-child(1) div {
+    display: flex;
+    flex-direction: column;
+    width: 569px;
+    margin-left: 133px;
+    gap: 16px;
+}
+
+main section:nth-child(1) div img:hover{
+    transform: scale(1.02);
+    transition: transform ease-in-out .2s;
+    cursor: pointer;
+}
+
+main section:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 219px;
+    margin-left: 130px;
+    gap: 8px;
+}
+
+main section hr {
+    height: 1px;
+    width: 470px;
+    color: #F2E7FA;
+    margin-left: 130px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main section:nth-child(2) div:nth-child(2) p {
+    padding-top: 49px;
+    line-height: ;
+}
+
+footer {
+    background-color: #fff;
+    padding-top: 63.7px;
+}
+
+footer section {
+    display: flex;
+    margin-left: 134px;
+    gap: 30px;
+}
+
+footer section div {
+    width: 370px;
+    height: 458px;
+    gap: 8px;
+}
+
+footer section div img {
+    width: 370px;
+    height: 259px;
+}
+
+footer section div img:hover{
+    transform: scale(1.02);
+    transition: transform ease-in-out .2s;
+    cursor: pointer;
+}
+
+footer div figcaption {
+    margin-top: 8px;
+}
