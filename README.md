@@ -23,7 +23,8 @@ Aplicação desenvolvida para envio no discover, programa para ensino de tecnolo
 </p>
 <p align="center">  
   <strong>Mobile</strong></br>
-  <img alt="rocketBlog" src=".github/.projectMobile1.png" width="">
+  <img alt="rocketBlog" src=".github/.projectMobile1.png" width="40%" height="auto">
+  <img alt="rocketBlog" src=".github/.projectMobile2.png" width="40%" height="auto">
 </p>
 
 ## 🚀 Tecnologias
