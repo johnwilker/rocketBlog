@@ -1,7 +1,7 @@
 <h1 align="center"> Rocket Blog </h1>
 
 <p align="center">
-Aplicação desenvolvida para submissão no discover, programa para ensino de tecnologias WEB promovido pela Rocketseat .
+Aplicação desenvolvida para envio no discover, programa para ensino de tecnologias WEB promovido pela Rocketseat.
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Aplicação desenvolvida para submissão no discover, programa para ensino de te
 </p>
 <p align="center">  
   <strong>Mobile</strong></br>
-  <img alt="rocketBlog" src=".github/.projectMobile.png" width="">
+  <img alt="rocketBlog" src=".github/.projectMobile1.png" width="">
 </p>
 
 ## 🚀 Tecnologias
@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Rocket Blog é uma página que simula uma página de um blog contendo um menu de navegação para acesso as demais páginas do blog, além de artigos relacionados ao tema do blog.
+O Rocket Blog é uma página que simula uma página de um blog contendo um menu de navegação para acesso as demais páginas do blog que também conta com uma versão responsiva totalmente adaptada para dispositivos móveis.
 
 ## 🔖 Layout
 
